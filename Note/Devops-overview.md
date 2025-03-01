@@ -5,6 +5,10 @@
 1. [Các mô hình phát triển](#các-mô-hình-phát-triển)
 2. [DevOps là gì?](#devops-là-gì)
 3. [Quy trình làm việc của DevOps](#quy-trình-làm-việc-của-devops)
+4. [Lợi ích của DevOps](#lợi-ích-của-devops)
+5. [DevOps cần học gì?](#devops-cần-học-gì)
+6. [Kế hoạch học DevOps](#kế-hoạch-học-devops)
+7. [Tổng kết](#tổng-kết)
 
 ## Các mô hình phát triển
  
