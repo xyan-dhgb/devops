@@ -7,7 +7,7 @@
 
 - Đồ án này nhằm cung cấp cái nhìn toàn diện về quy trình làm việc của DevOps và tư duy sử dụng công nghệ để giải quyết bài toán được đưa ra. 
 
-- Nói một cách chi tiết, đây là dự án nhằm thực hiện triển khai một ứng dụng YouTube Clone trên cụm Kubernetes được quản lý bởi AWS Elastic Kubernetes Service (EKS), sử dụng công nghệ Jenkins để tự động hóa CI/CD và Terraform để quản lý hạ tầng.
+- Nói một cách chi tiết, đây là dự án nhằm thực hiện triển khai một ứng dụng YouTube Clone trên cụm Kubernetes được quản lý bởi AWS Elastic Kubernetes Service (EKS), sử dụng công nghệ Jenkins để tự động hóa CI/CD và Terraform để quản lý hạ tầng AWS.
 
 ## Phân tích giải pháp
 
@@ -25,7 +25,7 @@
     - Môi trường làm việc: Vscode
     - Quản lý phiên bản và lưu trữ code: Git, Github
     - Tối ưu hóa quy trình CI/CD: Jenkins
-    - Đóng gói ứng dụng: Docker
+    - Đóng gói ứng dụng và lưu trữ image: Docker, DockerHub
     - Xây dựng cơ sở hạ tầng AWS: Terraform
     - Quản lý cấu hình: Kubernete, Helm Charts
     - Quản lý cụm Kubernetes: AWS EKS
