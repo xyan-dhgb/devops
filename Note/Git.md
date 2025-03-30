@@ -158,6 +158,15 @@ git tag
     - Siêu dữ liệu (tin nhắn commit, tên tác giả, ...) 
     - Các hash của các commit cha 
 
+- [Tạo nhánh mới (Creating a new branch)](#tạo-nhánh-mới-creating-a-new-branch)
+
+
+- [Di chuyển giữa các nhánh (Switching between branches)](#di-chuyển-giữa-các-nhánh-switching-between-branches)
+
+- [Hợp nhất các nhánh (Merging a branch)](#hợp-nhất-các-nhánh-merging-a-branch)
+
+- [Xóa nhánh (Deleting branches)](#xóa-nhánh-deleting-branches)
+
 #### Tạo nhánh mới (Creating a new branch)
 
 ```bash
@@ -207,6 +216,18 @@ git branch -d branch name
     - Một nhánh chưa được hợp nhất vào nhánh hiện tại
 
 ### Tương tác với kho lưu trữ từ xa (Interacing with remote repository)
+
+- [Tổng quan](#tổng-quan)
+
+- [Thêm kho lưu trữ được chia sẻ (Adding a shared repository)](#thêm-kho-lưu-trữ-được-chia-sẻ-adding-a-shared-repository)
+
+- [Gửi thay đổi (Sending changes (push))](#gửi-thay-đổi-sending-changes-push)
+
+- [Kéo thay đổi (Receiving changes (pull))](#kéo-thay-đổi-receiving-changes-pull)
+
+- [Lấy thay đổi (Fetching changes (fetch))](#lấy-thay-đổi-fetching-changes-fetch)
+
+- [Nhân bản kho lưu trữ (Cloning a repository)](#nhân-bản-kho-lưu-trữ-cloning-a-repository)
 
 #### Tổng quan
 
@@ -268,6 +289,10 @@ git clone url
 
 ### Quản lý máy chủ Git (Administrating a Git server)
 
+- [Tạo kho lưu trữ chia sẻ (Creating a shared repository)](#tạo-kho-lưu-trữ-chia-sẻ-creating-a-shared-repository)
+
+- [Công bố kho lưu trữ (How to publish a GIT repository)](#công-bố-kho-lưu-trữ-how-to-publish-a-git-repository)
+
 #### Tạo kho lưu trữ chia sẻ (Creating a shared repository)
 
 ```bash
@@ -290,6 +315,10 @@ git init --bare --shared my-shared-repository.git
 
 
 ### Làm việc với những tổ chức bên ngoài (Working with third-party contributors)
+
+- [Gửi thay đổi](#gửi-thay-đổi)
+
+- [Sử dụng bản vá](#sử-dụng-bản-vá)
 
 #### Gửi thay đổi:
 
