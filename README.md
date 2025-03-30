@@ -7,10 +7,11 @@ nghệ liên quan. Ngoài ra, tôi sẽ được giới thiệu tổng quan và 
 
 1. [Giới thiệu DevOps](#giới-thiệu-về-devops)
 2. [Mục tiêu](#mục-tiêu)
-2. [Cách thực hành](#cách-thực-hành)
-3. [Tài liệu học tập](#tài-liệu-học-tập)
-4. [Cách làm việc](#cách-làm-việc)
-5. [Thông tin liên hệ](#thông-tin-liên-hệ)
+3. [Cách thực hành](#cách-thực-hành)
+4. [Cấu trúc thư mục](#cấu-trúc-thư-mục)
+5. [Tài liệu học tập](#tài-liệu-học-tập)
+6. [Cách làm việc](#cách-làm-việc)
+77. [Thông tin liên hệ](#thông-tin-liên-hệ)
 
 ## Giới thiệu về DevOps
 
@@ -32,6 +33,15 @@ tế trong môi trường làm việc chuyên nghiệp
 - Sử dụng quản lý phiên bản cho tất cả mã và tệp cấu hình.
 - Giám sát và ghi nhật ký mọi thứ để đảm bảo sức khỏe và hiệu suất hệ thống.
 - Khuyến khích văn hóa hợp tác giữa các nhóm phát triển và vận hành.
+
+## Cấu trúc thư mục
+```bash
+├── Asset           # Lưu trữ tài nguyên tĩnh như ảnh, gif, ...
+├── Note            # Ghi chú về lý thuyết
+├── Project         # Đồ án
+├── README.md       # Nội dung tổng quát của repo
+└── Slide           # Slide lý thuyết
+```
 
 ## Tài liệu học tập
 
