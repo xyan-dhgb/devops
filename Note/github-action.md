@@ -175,6 +175,26 @@ jobs:
     - **Bước 3**: Cài đặt các dependencies được định nghĩa trong package.json.
     - **Bước 4**: Chạy các bài kiểm tra (test) bằng lệnh npm test.
 
+## Github Actions và Jenkins
+
+| Tiêu chí                          | GitHub Actions                                  | Jenkins                                          |
+|----------------------------------|--------------------------------------------------|--------------------------------------------------|
+| **Mức độ tích hợp với GitHub**   | Tích hợp trực tiếp, native CI/CD cho GitHub     | Cần plugin để tích hợp, không mượt bằng Actions |
+| **Thiết lập ban đầu**            | Rất dễ, chỉ cần `.yml` trong repo               | Cần cài đặt, cấu hình thủ công server Jenkins   |
+| **Chi phí vận hành**             | Free trong giới hạn (với GitHub Free/Pro/Teams) | Tốn tài nguyên server, phải tự quản lý          |
+| **Tùy biến & mở rộng**           | Giới hạn hơn, tùy vào GitHub Runner             | Cực kỳ mạnh, plugin phong phú, có thể build pipeline phức tạp |
+| **Bảo mật & kiểm soát**          | Phụ thuộc GitHub, không toàn quyền              | Toàn quyền quản lý CI/CD pipeline và bảo mật    |
+| **Sử dụng cho multi-repo/project** | Hơi khó quản lý khi có nhiều repo               | Có thể dùng Shared Libraries, dễ quản lý tập trung |
+| **Tích hợp công cụ ngoài (ex: AWS, Docker, SonarQube)** | Có sẵn nhiều action, nhưng không đa dạng như Jenkins | Cài plugin thoải mái, gần như tool nào cũng có |
+| **Hỗ trợ self-hosted runners**   | Có, nhưng không mạnh bằng Jenkins agents        | Có thể tự cấu hình agent theo nhu cầu            |
+| **Thích hợp cho nhóm nhỏ/startup** | Rất phù hợp, nhanh và nhẹ                     | Hơi nặng và overkill nếu chỉ làm CI/CD đơn giản |
+| **Thích hợp cho enterprise/phức tạp** | Hạn chế về mặt quản lý & bảo mật nâng cao    | Tối ưu cho hệ thống CI/CD lớn và custom hóa cao |
+
+>  **Tóm tắt**:  
+- **Dùng GitHub Actions** khi: Dự án host trên GitHub, team nhỏ/medium, muốn setup CI/CD nhanh và dễ.  
+- **Dùng Jenkins** khi: Cần custom pipeline phức tạp, enterprise-level CI/CD, nhiều repo, cần toàn quyền kiểm soát hạ tầng.
+
+
 ## Tham khảo
 
 -  [Tài liệu GitHub Action chính thức của GitHub](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions)
