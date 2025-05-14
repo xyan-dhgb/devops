@@ -17,7 +17,7 @@ nghệ liên quan. Ngoài ra, tôi sẽ được giới thiệu tổng quan và 
 
 DevOps là một tập hợp các thực hành kết hợp phát triển phần mềm (Dev) và vận hành (Ops). Nó nhằm rút ngắn vòng đời phát triển và cung cấp phần mềm chất lượng cao liên tục.
 
-Tham khảo thêm ở [Devops-overview](/Note/Devops-overview.md)
+Tham khảo thêm ở [Devops-overview](/Note/devops-overview.md)
 
 ## Mục tiêu
 
