@@ -44,3 +44,4 @@ terraform.rc
 
 #Ignore office files
 *.docx
+*.pdf
